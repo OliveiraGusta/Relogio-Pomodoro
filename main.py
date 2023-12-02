@@ -24,13 +24,13 @@ class RelogioPomodoro:
         self.iniciar_button = ttk.Button(button_frame, text="Iniciar", command=self.iniciar_relogio)
         self.iniciar_button.pack(side=tk.LEFT, padx=5)
 
-        self.pausar_button = ttk.Button(button_frame, text="Pausar", command=self.pausar_relogio, state=tk.DISABLED)
+        self.pausar_button = ttk.Button(button_frame, text="Pausar", command=self.pausar_relogio, style="secondary", state=tk.DISABLED)
         self.pausar_button.pack(side=tk.LEFT, padx=5)
 
         self.mais_5_min_button = ttk.Button(button_frame, text="+5 Min", command=self.adicionar_tempo)
         self.mais_5_min_button.pack(side=tk.LEFT, padx=5)
 
-        self.menos_5_min_button = ttk.Button(button_frame, text="-5 Min", command=self.subtrair_tempo)
+        self.menos_5_min_button = ttk.Button(button_frame, text="-5 Min", style="secondary",  command=self.subtrair_tempo)
         self.menos_5_min_button.pack(side=tk.LEFT, padx=5)
 
         self.tempo_tarefa, self.tempo_pausado = TEMPO_TAREFA, PAUSA_CURTA
