@@ -8,6 +8,9 @@ Este é um simples aplicativo de timer Pomodoro desenvolvido em Python utilizand
 - Botões para iniciar, pausar, adicionar e subtrair tempo.
 - Mensagens informativas para pausas longas a cada 4 pomodoros concluídos.
 
+## Botão "Fixar Janela"
+Fixar a janela em sobreposição: Utilize o botão "Fixar" para manter a janela do aplicativo em destaque sobre outras janelas. Isso garante que você não perca de vista o tempo restante durante seus pomodoros, mesmo ao alternar entre aplicativos.
+
 ## Como usar
 - Iniciar Timer: Pressione o botão "Iniciar" para começar a contagem regressiva do tempo ativo.
 - Pausar Timer: Pressione o botão "Pausar" para interromper temporariamente o timer.
